@@ -10,9 +10,9 @@ metadata:
   uid: f52d6a3b-a1c3-407c-ada5-3cee3b34d7f6
 spec:
   containers:
-  - image: nginx
+  - image: bluebox
     imagePullPolicy: Always
-    name: nginx
+    name: bluebox
     resources: {}
     terminationMessagePath: /dev/termination-log
     terminationMessagePolicy: File
