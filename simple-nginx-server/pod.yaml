@@ -10,9 +10,9 @@ metadata:
   uid: f52d6a3b-a1c3-407c-ada5-3cee3b34d7f6
 spec:
   containers:
-  - image: busybox
+  - image: nginx
     imagePullPolicy: Always
-    name: busybox
+    name: nginx
     resources: {}
     terminationMessagePath: /dev/termination-log
     terminationMessagePolicy: File
